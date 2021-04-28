@@ -1,0 +1,36 @@
+{
+    "name": "zype",
+    "displayName": "ZypeLang",
+    "description": "A OpenSource & easy-to-use shorter version of JSON",
+    "version": "0.0.1",
+    "icon": "img/logo.png",
+    "author": {
+        "name": "Zype, Inc.",
+        "email": "info@zype.cf",
+        "url": "https://zype-lang.cf"
+    },
+    "publisher": "zype",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zype-Z/ZypeLang-VSCode"
+    },
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "zype",
+            "aliases": ["Zype", "zype"],
+            "extensions": [".zype"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "zype",
+            "scopeName": "source.zype",
+            "path": "./syntaxes/zype.tmLanguage.json"
+        }]
+    }
+}
