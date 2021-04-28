@@ -3,7 +3,7 @@
 It is the Official extension for ZypeLang support.
 
 <p align="center">
-    <img src="img/logo.png">
+    <img src="https://raw.githubusercontent.com/Zype-Z/ZypeLang-VSCode/main/img/logo.png">
 </p>
 
 ## Requirements

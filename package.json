@@ -3,7 +3,7 @@
     "displayName": "ZypeLang",
     "description": "A OpenSource & easy-to-use shorter version of JSON",
     "version": "0.0.1",
-    "icon": "img/logo.png",
+    "icon": "https://raw.githubusercontent.com/Zype-Z/ZypeLang-VSCode/main/img/logo.png",
     "author": {
         "name": "Zype, Inc.",
         "email": "info@zype.cf",
