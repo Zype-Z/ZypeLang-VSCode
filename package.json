@@ -4,6 +4,7 @@
     "description": "A OpenSource & easy-to-use shorter version of JSON",
     "version": "1.0.0",
     "icon": "img/logo.png",
+    "license": "LICENSE",
     "author": {
         "name": "Zype, Inc.",
         "email": "info@zype.cf",
@@ -22,26 +23,22 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "zype",
-                "aliases": [
-                    "Zype",
-                    "zype"
-                ],
-                "extensions": [
-                    ".zype",
-                    ".z"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "zype",
-                "scopeName": "source.zype",
-                "path": "./syntaxes/zype.tmLanguage.json"
-            }
-        ]
+        "languages": [{
+            "id": "zype",
+            "aliases": [
+                "Zype",
+                "zype"
+            ],
+            "extensions": [
+                ".zype",
+                ".z"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "zype",
+            "scopeName": "source.zype",
+            "path": "./syntaxes/zype.tmLanguage.json"
+        }]
     }
 }
