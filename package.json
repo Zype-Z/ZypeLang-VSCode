@@ -15,7 +15,8 @@
         "url": "git+https://github.com/Zype-Z/ZypeLang-VSCode"
     },
     "engines": {
-        "vscode": "^1.55.0"
+        "vscode": "^1.55.0",
+        "npm": "^5.0.0"
     },
     "categories": [
         "Programming Languages"
