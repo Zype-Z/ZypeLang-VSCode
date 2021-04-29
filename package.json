@@ -22,16 +22,26 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "zype",
-            "aliases": ["Zype", "zype"],
-            "extensions": [".zype", ".z"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "zype",
-            "scopeName": "source.zype",
-            "path": "./syntaxes/zype.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "zype",
+                "aliases": [
+                    "Zype",
+                    "zype"
+                ],
+                "extensions": [
+                    ".zype",
+                    ".z"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "zype",
+                "scopeName": "source.zype",
+                "path": "./syntaxes/zype.tmLanguage.json"
+            }
+        ]
     }
 }
