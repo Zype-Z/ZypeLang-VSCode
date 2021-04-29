@@ -1,9 +1,9 @@
 {
     "name": "zype",
-    "displayName": "ZypeLang",
+    "displayName": "Zype Programming Language Support",
     "description": "A OpenSource & easy-to-use shorter version of JSON",
-    "version": "0.0.1",
-    "icon": "https://raw.githubusercontent.com/Zype-Z/ZypeLang-VSCode/main/img/logo.png",
+    "version": "1.0",
+    "icon": "img/logo.png",
     "author": {
         "name": "Zype, Inc.",
         "email": "info@zype.cf",
@@ -24,7 +24,7 @@
         "languages": [{
             "id": "zype",
             "aliases": ["Zype", "zype"],
-            "extensions": [".zype"],
+            "extensions": [".zype", ".z"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
