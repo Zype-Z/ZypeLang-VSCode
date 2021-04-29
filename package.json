@@ -2,7 +2,7 @@
     "name": "zype",
     "displayName": "Zype Programming Language Support",
     "description": "A OpenSource & easy-to-use shorter version of JSON",
-    "version": "1.0",
+    "version": "1.0.0",
     "icon": "img/logo.png",
     "author": {
         "name": "Zype, Inc.",
